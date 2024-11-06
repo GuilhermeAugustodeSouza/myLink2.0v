@@ -220,7 +220,7 @@ span {
 .footer a {
   color: gray;
   font-family: "Grenze Gotisch", cursive;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 5px;
   text-decoration: none;
 }
@@ -231,14 +231,16 @@ span {
   font-weight: bold;
 }
 
-/*
 
-@media(max-width:600px){
-    body{
-        height:900px;
+@media(max-width:560px){
+    .listPrograms a{
+      z-index: 2; 
+    }
+    .container{
+      z-index: 0;
     }
     
-}*/
+}
 @keyframes float {
   0% {
     transform: translateY(0px);
